@@ -1,0 +1,5 @@
+name: Cursed
+version: 1.0
+description: You're fucking cursed
+main: tomelo.cursed.Driver
+api-version: 1.13
