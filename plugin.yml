@@ -1,5 +1,15 @@
 name: Cursed
 version: 1.0
 description: You're fucking cursed
-main: tomelo.cursed.Driver
+main: tomelo.cursed.main.Driver
 api-version: 1.13
+commands:
+   copymodel:
+      description: copy the specified area as a model
+      usage: /copymodel file_name x1 y1 z1 x2 y2 z2
+   pastemodel:
+      description: paste model on player location
+      usage: /pastemodel file_name
+   mound:
+      description: creates a mound of dirt with varying heights
+      usage: /mound
